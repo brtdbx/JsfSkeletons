@@ -1,0 +1,12 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+	version="1.0">
+    <persistence-unit name="com.br_JsfSkeletons_war_1.0-SNAPSHOTPU" transaction-type="JTA">
+        <jta-data-source>TestDB</jta-data-source>
+        <mapping-file>META-INF/queries.xml</mapping-file>
+        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+        <!-- Named JPQL queries per entity, but any other organization is possible  -->
+    </persistence-unit>
+</persistence>
+
